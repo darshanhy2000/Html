@@ -1,0 +1,98 @@
+<!-- We added a <style> section within the <head> of the HTML document to define CSS styles.
+
+    We set the body to have no margin and to hide overflow so that the video covers the entire viewport.
+    
+    The section element is given a position: relative; style, which allows us to position the h1 element relative to it.
+    
+    The video is set to have a width of 100% and to maintain its aspect ratio while covering the entire width of its container.
+    
+    The h1 element is positioned absolutely within the section, and top: 50%; and left: 50%; are used to center it both vertically and horizontally. transform: translate(-50%, -50%); is used to offset the element by half of its own width and height to center it precisely.
+    
+    We added some additional styles for text appearance, such as color, font-size, and text-transform.
+    
+    
+     -->
+    
+
+
+
+
+<!-- <html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-COMPATIBLE" Contact="IE=EDGE">
+        <meta name="viewport" content="width=device-width
+        ,initial-scale=1.0">
+        <link rel="stylesheet" href="smoke.class">
+        <title>smoke Effect name</title>
+    </head>
+    <body>
+        <section>
+            <video src="C:\Users\harsh\OneDrive\Documents\Visual Studio 2022\CyberSecurity\fire_background_loop2_videvo2.mov" autoplay muted></video>
+
+            <h1> 
+                <samp>D</samp>
+                <Samp>A</Samp>
+                <Samp>R</Samp>
+                <Samp>S</Samp>
+                <Samp>H</Samp>
+                <Samp>A</Samp>
+                <Samp>N</Samp>
+            </h1>
+        </section>
+    </body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-COMPATIBLE" Contact="IE=EDGE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="smoke.css"> 
+    <title>Fire Effect name</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        section {
+            position: relative;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 48px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <video src="C:\Users\OneDrive\Documents\Visual Studio 2022\CyberSecurity\fire_background_loop2_videvo2.mov" autoplay muted></video>
+        <h1>
+            <samp>D</samp>
+            <samp>A</samp>
+            <samp>R</samp>
+            <samp>S</samp>
+            <samp>H</samp>
+            <samp>A</samp>
+            <samp>N</samp>
+        </h1>
+    </section>
+</body>
+</html>
